@@ -1,0 +1,75 @@
+*{
+	margin: 0px 0px 0px;
+	font-family: 'Mina', sans-serif;
+}
+body{
+	background-image: url('../img/pagebg.png');
+	background-repeat: repeat;
+}
+header{
+	width: 100%;
+	height:300px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	font-size: 100px;
+	margin-top:18vh;
+}
+#container{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+.subcontainer{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+}
+#singleplayer{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+	font-size: 40px;
+	border-radius: 15px;
+	color: white;
+	background-color: #2d48e2;
+	transition: all 0.2s;
+}
+#multiplayer{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+	font-size: 40px;
+	border-radius: 15px;
+	color: white;
+	background-color: #2d48e2;
+	transition: all 0.2s;
+}
+#singleplayer:hover,#multiplayer:hover{
+	width: 100%;
+	cursor: pointer;
+	height: 90px;
+	font-size: 45px;
+	transition: all 0.2s;
+}
+a:hover{
+	width: 70%;
+}
+a{
+	width: 60%;
+	text-decoration: none;
+	transition: all 0.2s;
+}

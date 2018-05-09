@@ -1,0 +1,150 @@
+*{
+	margin: 0px 0px 0px;
+	font-family: 'Mina', sans-serif;
+}
+body{
+	background-image: url('../img/pagebg.png');
+	background-repeat: repeat;
+}
+#container{
+	border: 2px solid #448cff;
+	position: absolute;
+	border-radius: 25px;
+	display: grid;
+	grid-template-rows: 200px 200px 200px;
+	grid-template-columns: 200px 200px 200px;
+	width: 600px;
+	height: 600px;
+	background-color: #d8e7ff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+#container div:hover{
+	cursor: pointer;
+}
+.cell{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 90%;
+	height: 90%;
+	background-color: #e2edff;
+	margin:auto auto auto auto;
+	font-size: 100px;
+	border: 2px solid #448cff;
+	border-radius: 25px;
+}
+.cell > p{
+	font-size: 25px;
+}
+#divblack{
+	position: absolute;
+	background-color: black;
+	z-index: 1;
+	width: 100%;
+	height: 100vh;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s;
+
+}
+#winnerX{
+	z-index: 1;
+	position: absolute;
+	width: 35%;
+	height: 250px;
+	background-color: #3fff2d;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 15px;
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+	opacity: 0;
+	transition: all 0.5s;
+}
+#winnerO{
+	z-index: 1;
+	position: absolute;
+	width: 35%;
+	height: 250px;
+	background-color: #3fff2d;
+	top: 0; 
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 15px;
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+	opacity: 0;
+	transition: all 0.5s;
+}
+#restartButton{
+	width: 35%;
+	height: 100px;
+	z-index: 1;
+	position: relative;
+	width: 35%;
+	height: 100px;
+	background-color: #3fff2d;
+	top: 70vh; 
+	left: 0;
+	right: 0;
+	bottom: ;
+	margin: auto;
+	border-radius: 15px;
+	font-size: 50px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s;
+	
+}
+#restartButton:hover{
+	cursor: pointer;
+	width: 40%;
+}
+#draw{
+	z-index: 1;
+	position: absolute;
+	width: 35%;
+	height: 250px;
+	background-color: #3fff2d;
+	top: 0; 
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 15px;
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+	opacity: 0;
+	transition: all 0.5s;
+}
